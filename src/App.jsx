@@ -3,13 +3,19 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import UserCard from './components/UserCard'
+import Navbar from './components/Navbar'
+import LandingSection from './components/LandingSection'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
    <>
-   <UserCard />
-   <UserCard />
+   <Navbar />
+   <LandingSection /> 
+   {/* <UserCard />
+   <UserCard /> */}
+   <Footer />
    </>  
   )
 }

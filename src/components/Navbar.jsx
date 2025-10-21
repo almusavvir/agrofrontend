@@ -9,8 +9,8 @@ export default function Navbar() {
                 <div className="flex justify-between h-16 items-center">
                     {/* Brand */}
                     <div className="flex-shrink-0">
-                        <a href="#" className="text-xl font-semibold text-gray-800">
-                            AgroFrontend
+                        <a href="#" className="text-3xl font-bold text-gray-800">
+                            Agro DMS
                         </a>
                     </div>
 
