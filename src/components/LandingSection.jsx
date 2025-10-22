@@ -24,13 +24,13 @@ export default function LandingSection() {
             <div className="absolute inset-0 bg-white/10 backdrop-blur-none" aria-hidden="true" />
 
             <div className="relative z-10 max-w-7xl mx-auto px-6 py-16">
-                <div className="flex flex-col lg:flex-row items-center gap-10">
+                <div className="flex flex-col lg:flex-row items-center gap-30">
                     {/* Left: Hero */}
-                    <div className="flex-1 text-center lg:text-left">
+                    <div className="flex-1 text-center lg:text-left backdrop-blur-2xl p-6 rounded-2xl shadow-lg bg-black/40">
                         <h1 className="text-4xl sm:text-5xl font-extrabold text-white text-shadow-gray-950 leading-tight">
                             One Nation, One Scheme
                         </h1>
-                        <p className="mt-4 text-gray-600 max-w-xl">
+                        <p className="mt-4 max-w-xl text-white">
                             Streamline your operations with real-time analytics, crop insights,
                             and a dashboard made for growers. Sign in to access your farm's
                             performance at a glance.
@@ -55,7 +55,7 @@ export default function LandingSection() {
                     {/* Right: Login Panel */}
                     <div className="w-full max-w-md">
                         <div className="bg-white border border-gray-200 rounded-xl shadow-sm p-6">
-                            <h2 className="text-2xl font-semibold text-gray-900">Welcome back</h2>
+                            <h2 className="text-2xl font-semibold text-gray-900">Admin Login</h2>
                             <p className="mt-1 text-sm text-gray-600">Sign in to your account</p>
 
                             <form onSubmit={handleSubmit} className="mt-6 space-y-4">
