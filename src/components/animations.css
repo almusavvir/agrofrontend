@@ -1,0 +1,8 @@
+.input[type="email"] {
+    transition: all 0.3s ease;
+}
+
+.input:hover[type="email"] {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}  

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../components/animations.css";
 
 export default function LandingSection() {
     const [email, setEmail] = useState("");
